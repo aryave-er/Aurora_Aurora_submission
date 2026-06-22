@@ -1,0 +1,42 @@
+# Data directory (user-provided, never committed)
+data/
+
+# Model checkpoints
+outputs/*.pth
+outputs/*.pt
+
+# Notebook checkpoints
+notebooks/.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Environment
+aurora_env/
+.venv/
+*.egg
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Wandb logs
+wandb/
+
+# Logs
+*.log
+Data/
+*.pth
+__pycache__/
+*.pyc
+.DS_Store

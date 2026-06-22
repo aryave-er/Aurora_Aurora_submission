@@ -1,0 +1,40 @@
+# ─── Aurora: Geo Snap Paradigm ───────────────────────────────────────────────
+# Deep Learning Pipeline for Multispectral Satellite Land-Use Classification
+# Python 3.10+
+
+# ── Core Deep Learning ────────────────────────────────────────────────────────
+torch>=2.1.0
+torchvision>=0.16.0
+timm>=0.9.12               # Swin Transformer + other vision architectures
+
+# ── Geospatial / Remote Sensing ───────────────────────────────────────────────
+rasterio>=1.3.8             # Read 16-bit TIFF multispectral files
+numpy>=1.24.0
+scipy>=1.11.0
+
+# ── Data Science ─────────────────────────────────────────────────────────────
+pandas>=2.0.0
+scikit-learn>=1.3.0        # KMeans, GroupKFold, metrics
+
+# ── Explainability ────────────────────────────────────────────────────────────
+shap>=0.43.0               # Deep SHAP spectral attribution
+
+# ── Visualization ─────────────────────────────────────────────────────────────
+matplotlib>=3.7.0
+seaborn>=0.12.0
+opencv-python>=4.8.0       # Grad-CAM overlay, image processing
+Pillow>=10.0.0
+
+# ── Training Utilities ────────────────────────────────────────────────────────
+tqdm>=4.66.0               # Progress bars
+
+# ── Notebook Support ──────────────────────────────────────────────────────────
+jupyter>=1.0.0
+ipywidgets>=8.0.0
+notebook>=7.0.0
+
+# ── Optional: LIME explainability ────────────────────────────────────────────
+# lime>=0.2.0.1
+
+# ── Optional: Weights & Biases logging ───────────────────────────────────────
+# wandb>=0.16.0
