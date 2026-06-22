@@ -3,7 +3,7 @@
 
 **Team:** Aurora  
 **Competition:** GeoSnap — SOI × Cosmosoc  
-**Submission:** TeamName_Aurora_submission  
+**Submission:** Aurora_Geosnap_submission  
 **Date:** June 2026
 
 ---
