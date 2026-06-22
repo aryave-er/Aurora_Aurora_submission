@@ -16,7 +16,7 @@
 ## Repository Structure
 
 ```
-TeamName_Aurora_submission/
+Aurora_Aurora_submission/
 ├── Data/                              ← dataset (not committed, see below)
 ├── notebooks/
 │   ├── 01_spatial_validation.ipynb   ← domain shift analysis & split validation
@@ -99,7 +99,7 @@ Data/
 ### Train RGB Model (Swin-T)
 
 ```bash
-cd TeamName_Aurora_submission
+cd Aurora_Aurora_submission
 python3 src/train_swin.py
 # Saves checkpoint → outputs/swin_transformer_rgb_best.pth
 # Expected: ~96.58% val accuracy after 40 epochs (~2-3 hours on M4)
