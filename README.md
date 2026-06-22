@@ -16,7 +16,7 @@
 ## Repository Structure
 
 ```
-Aurora_Aurora_submission/
+Aurora_Geosnap_submission/
 ├── Data/                              ← dataset (not committed, see below)
 ├── notebooks/
 │   ├── 01_spatial_validation.ipynb   ← domain shift analysis & split validation
